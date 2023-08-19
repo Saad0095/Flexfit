@@ -1,0 +1,40 @@
+/* font-family: 'Abhaya Libre', serif;
+font-family: 'Alegreya', serif;
+font-family: 'Arapey', serif;
+font-family: 'Merriweather', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;*/
+
+.min-h-screen{
+    min-height: 100vh;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.font-bold{
+    font-weight: bold;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
