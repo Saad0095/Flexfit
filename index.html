@@ -23,17 +23,34 @@
 
 </head>
 
-          
 <body>
   <div class="main-container mx-auto">
-        <header class="">
 
-      <nav id="navbar" class="flex justify-between align-items-center container mx-auto flex-wrap flex-col md:flex-row items-center">
+    <header class="header text-black-600 body-font">
+      <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <!-- <a class="header-logo flex title-font font-medium items-center text-black-900 mb-4 md:mb-0"> -->
+        <a class="header-logo flex items-center mb-4 md:mb-0">
+          <!-- <span class="ml-3 text-xl">FlexFit Gym</span> -->
+          <span class="text-xl">FlexFit Gym</span>
+        </a>
+        <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+          <a class="mr-5 hover:text-gray-900 pt-1">Home</a>
+          <a class="mr-5 hover:text-gray-900 pt-1">About</a>
+          <a class="mr-5 hover:text-gray-900 pt-1">Services</a>
+          <a class="mr-5 hover:text-gray-900 pt-1">Contact Us</a>
+        </nav>
+        <button class="button-34 inline-flex items-center md:mt-0 mt-3">Join Now
+        </button>
+      </div>
+    </header>
+
+<!-- <header class="header">
+      <nav id="navbar"
+        class="flex justify-between align-items-center container mx-auto flex-wrap flex-col md:flex-row items-center">
         <div id="" class="header-logo font-bold">FlexFit Gym</div>
 
-        <ul class=" flex align-items-center md:ml-auto flex-wrap items-center text-base justify-center ">
-          <!-- li.item{<a></a>}*5 (Emmet) -->
-<li class="item"><a href="/FlexFit/index.html">Home</a></li>
+        <ul class="flex align-items-center md:ml-auto flex-wrap items-center text-base justify-center ">
+          <li class="item"><a href="#">Home</a></li>
           <li class="item"><a href="#">About</a></li>
           <li class="item"><a href="#">Services</a></li>
           <li class="item"><a href="#">Contact Us</a></li>
@@ -43,9 +60,9 @@
         </ul>
       </nav>
 
-    </header>
+    </header> -->
 
-    <hr>
+     <hr>    
 
     <main class="mx-auto min-h-screen">
       <section class="section1 flex align-items-center">
@@ -53,13 +70,16 @@
         <div class="topLeft flex">
           <!-- <img src="Images/Gym logo.png" alt=""> -->
           <h1>The Best Fitness Gym in the Town</h1>
-          <p class="para">Unleash Your Potential at FlexFit Gym. Experience dynamic classes, personalized training, and a supportive community, all dedicated to your wellness journey. Join us today and start shaping a healthier tomorrow!</p>
+          <p class="para">Unleash Your Potential at FlexFit Gym. Experience dynamic classes, personalized training, and
+            a supportive community, all dedicated to your wellness journey. Join us today and start shaping a healthier
+            tomorrow!</p>
         </div>
         <div class="topRight">
           <img src="gym-1.jpg" alt="">
         </div>
         <!-- </div> -->
       </section>
+
       <hr>
 
       <section class="section2">
@@ -370,7 +390,7 @@
                 </div>
                 <div class="p-2 w-full">
                   <button
-                    class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Submit</button>
+                    class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg" onclick="submit()">Submit</button>
                 </div>
                 <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
                   <a class="text-indigo-500">example@email.com</a>
@@ -468,6 +488,21 @@
     </footer>
   </div>
 
+  <!-- <script>
+    /* Set the width of the side navigation to 250px */
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    /* Set the width of the side navigation to 0 */
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+
+    function submit(){
+      alert("Your form has been submitted successfully")
+    }
+  </script> -->
 </body>
 
 </html>
