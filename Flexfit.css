@@ -8,25 +8,43 @@
 }
 
 /** Navbar **/
-#navbar {
+/* #navbar {
     height: 50px;
+    font-family: 'Oswald', sans-serif;
+} */
+
+.header{
+    /* height: 50px; */
     /* font-family: 'Alegreya', serif; */
     font-family: 'Oswald', sans-serif;
 }
 
-#navbar .header-logo {
+.header .header-logo {
     font-family: 'Times New Roman', Times, serif;
-    font-weight: 500px;
+    font-weight: 500;
     font-size: 1.1rem;
 }
 
-#navbar li {
+/* #navbar li {
+    list-style: none;
+    font-size: 1.05rem;
+    margin: 0px 20px;
+} */
+
+.header nav a {
     list-style: none;
     font-size: 1.05rem;
     margin: 0px 20px;
 }
 
-#navbar ul li a {
+/* #navbar a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-radius: 20px;
+} */
+
+.header nav a {
     display: block;
     /* padding: 2px 20px; */
     text-decoration: none;
@@ -34,9 +52,10 @@
     border-radius: 20px;
 }
 
-#navbar ul li a:hover {
+.header nav a:hover {
     color: gray;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .button-34 {
@@ -121,50 +140,14 @@
 @media (max-width: 750px) {
 
     .topLeft {
-      width: 100%;
-      align-items: center;
+        width: 100%;
+        align-items: center;
     }
 
 
     .topRight {
         display: none;
     }
-  } 
+}
 
-@media (min-width:530px) and (max-width: 750px ) {
-    #navbar {
-        height: 100px;
-        /* font-family: 'Alegreya', serif; */
-        font-family: 'Oswald', sans-serif;
-    }
-    
-    #navbar .header-logo {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        margin: auto;
-        font-family: 'Times New Roman', Times, serif;
-        font-weight: 500px;
-        font-size: 1.3rem;
-        /* display: block; */
-        /* align-items: center; */
-    }
 
-    #navbar ul{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        margin: auto;
-    }
-
-    #navbar li {
-        list-style: none;
-        font-size: 1.05rem;
-        margin: 0px 20px;
-    }
-  } 
-
-  
-.section2 {}
-
-.section3 {}
